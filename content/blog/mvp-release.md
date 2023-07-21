@@ -62,8 +62,7 @@ If you are familiar with the IPFS's design, you will immediately be with Admarus
 [Kubo](https://github.com/ipfs/kubo) runs a daemon on port `4001` and provides an HTTP API on port `5001`.  
 Admarus runs a daemon on port `4002` and provides an HTTP API on port `5002`.
 
-Kubo offers a webui.  
-Admarus offers a webui.
+Like IPFS, Admarus has a web user interface and a public gateway for convenience.
 
 Admarus is intented to run on machines that are running Kubo.
 When you run run the daemon, it automatically connects to Kubo.
@@ -90,7 +89,18 @@ By publishing their content to IPFS, you contribute to archiving and decentraliz
 
 ## 🚀 The Future
 
-## Technical Overview
+Now that the MVP is out, the next step is working towards the alpha release.
+See the corresponding [Github Milestone](https://github.com/Mubelotix/admarus/milestone/2).
+
+Incoming features include:
+- Support of image and video documents
+- UI and UX improvements
+- Performance optimizations
+- Ranking tweaks
+
+The alpha release is planned for the end of the summer.
+
+## 🛠️ Technical Overview
 
 Let's think this through the easy way.
 I will start by describing the naive approach everyone would think of, and then I will explain why it doesn't work and present a solution to its problems.
