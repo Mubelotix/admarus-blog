@@ -41,7 +41,7 @@ params:
       url: "https://www.linkedin.com/in/simon-g748572/"
   
   editPost:
-    URL: "https://github.com/Mubelotix/admarus-blog/content"
+    URL: "https://github.com/Mubelotix/admarus-blog/tree/master/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
