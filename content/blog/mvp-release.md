@@ -12,7 +12,9 @@ I'm excited to announce [Admarus](https://admarus.net/), a decentralized search 
     <a href="https://www.youtube.com/watch?v=AKGpNKwBrOY"><img src="https://admarus.net/demo.gif#2" alt="Demo GIF of searching on Admarus."/></a>
 </p>
 
-## Motivation
+🔥 [**Try the gateway-based demo!**](https://admarus.net/) 🔥
+
+## 💡 Motivation
 
 As a long time IPFS user, I've always wanted to use IPFS whenever I could.
 The thing is, no matter how much I wanted to, I ended up not using it at all.
@@ -35,7 +37,25 @@ There is no point building a new web if it's going to be ruled by the same centr
 As Paolo said, it must be peer-to-peer like IPFS, not reliant on fat blockchains and unsustainable tokens.
 This is the idea behind Admarus.
 
-## Design
+## ✨ Features
+
+- **No storage use**: Admarus indexes data that's already in your Kubo node
+- **Search operators**: AND, OR, and NOT
+- **Trustless**: Results are verified, not trusted
+- **Language detection**: Language is detected from text
+- **Scalable**: Gets faster as more peers join
+- **Censorship-resistant**: Censors would need full control of more than 95% of the network
+- **Open**: Nodes don't discriminate on obscure criteria (hi emails)
+- **Decentralized**: No central authority. Multiple peer discovery mechanisms available
+- **Blockchain-free**: No blockchain, no token, just peer-to-peer magic
+- **Developer-friendly**: Practical API for building apps and bots
+
+Admarus is obviously open source, [check it out on Github](https://github.com/mubelotix/admarus)!
+
+<script defer src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
+<div class="repo-card" data-repo="mubelotix/admarus"></div>
+
+## 📐 Design
 
 If you are familiar with the IPFS's design, you will immediately be with Admarus's.
 
