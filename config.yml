@@ -29,8 +29,8 @@ params:
     favicon: "https://admarus.net/assets/logo.png"
 
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Welcome on the Admarus blog \U0001F44B"
+    Content: Thank you for your interest in Admarus. This blog is a place where we share our progress and our thoughts about the project. We hope you will enjoy it!
 
   socialIcons:
     - name: twitter
