@@ -59,7 +59,7 @@ Admarus is obviously open source, [check it out on Github](https://github.com/mu
 
 If you are familiar with the IPFS's design, you will immediately be with Admarus's.
 
-Kubo runs a daemon on port `4001` and provides an HTTP API on port `5001`.  
+[Kubo](https://github.com/ipfs/kubo) runs a daemon on port `4001` and provides an HTTP API on port `5001`.  
 Admarus runs a daemon on port `4002` and provides an HTTP API on port `5002`.
 
 Kubo offers a webui.  
@@ -73,15 +73,22 @@ These documents will now be searchable in the entire network.
 This is game-changing for discoverability on IPFS.
 Considering this drives traffic to websites you pin, it gives an incentive to everyone to publish their websites to IPFS.
 
-## Run a node
+## 💻 Run a node
 
- all pinned documents in your Kubo IPFS node.
-These documents will now be searchable by other peers running Admarus.
+<a href="https://census.admarus.net/"><img alt="Documents in corpus badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcensus.admarus.net%2Fapi%2Fv0%2Fstats&query=%24.stats_1h.documents&suffix=%20documents&label=corpus&color=purple"></a>
+<a href="https://census.admarus.net/"><img alt="Peers in network badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcensus.admarus.net%2Fapi%2Fv0%2Fstats&query=%24.stats_1h.peers&suffix=%20peers&label=network&color=purple"></a>
 
-## Ambition
+The Admarus network is currently very small.
+It indexes a subset of Wikipedia and a few other websites.
+It would be a great help if you could run a node and help grow the network!
 
-## Design
+Guides and documentation can be found [on the wiki](https://github.com/Mubelotix/admarus/wiki).
 
+If you have a static website, consider [adding it to ipfs](https://docs.ipfs.tech/how-to/websites-on-ipfs/multipage-website) and [running Admarus](https://github.com/Mubelotix/admarus/wiki/Installation).
+I also encourage developers to build bridges to big websites (news, forums, wikis, torrent websites, etc.).
+By publishing their content to IPFS, you contribute to archiving and decentralizing the web.
+
+## 🚀 The Future
 
 ## Technical Overview
 
@@ -102,7 +109,3 @@ If we could only query peers that are likely to have results, we would be able t
 This is what the Kamilata protocol does, using a routing algorithm based on Bloom filters to test if a peer or its connections are likely to have results.
 
 To learn more about the Kamilata protocol and how it uses Bloom filters to route queries to the right peers, see [the Kamilata repository](https://github.com/mubelotix/kamilata).
-
-## Making IPFS relevant
-
-Admarus incentivizes people to publish their websites on IPFS, because it will drive traffic to them.
