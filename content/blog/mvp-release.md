@@ -6,10 +6,10 @@ draft: true
 
 I've been working on a new search engine system that's fully peer-to-peer, with no trusted third party.
 
-I'm excited to announce Admarus, a decentralized search engine for IPFS built on this system.
-
-When you run Admarus on your machine, it will automatically index all pinned documents in your Kubo IPFS node.
-These documents will now be searchable by other peers running Admarus.
+I'm excited to announce [Admarus](https://admarus.net/), a decentralized search engine for IPFS built on this system.
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=AKGpNKwBrOY"><img src="https://admarus.net/demo.gif#2" alt="Demo GIF of searching on Admarus."/></a>
+</p>
 
 ## Motivation
 
