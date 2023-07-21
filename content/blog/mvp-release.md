@@ -1,7 +1,7 @@
 ---
 title: "Introducing Admarus - A Peer-to-Peer Search Engine for IPFS"
 date: 2023-07-21T13:18:40+02:00
-draft: true
+draft: false
 ---
 
 I've been working on a new search engine system that's fully peer-to-peer, with no trusted third party.
