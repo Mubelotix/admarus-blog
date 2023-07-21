@@ -35,7 +35,23 @@ There is no point building a new web if it's going to be ruled by the same centr
 As Paolo said, it must be peer-to-peer like IPFS, not reliant on fat blockchains and unsustainable tokens.
 This is the idea behind Admarus.
 
-## Features
+## Design
+
+If you are familiar with the IPFS's design, you will immediately be with Admarus's.
+
+Kubo runs a daemon on port `4001` and provides an HTTP API on port `5001`.  
+Admarus runs a daemon on port `4002` and provides an HTTP API on port `5002`.
+
+Kubo offers a webui.  
+Admarus offers a webui.
+
+Admarus is intented to run on machines that are running Kubo.
+When you run run the daemon, it automatically connects to Kubo.
+It will then start indexing all the documents you have pinned. (Only html documents are supported yet.)
+These documents will now be searchable in the entire network.
+
+This is game-changing for discoverability on IPFS.
+Considering this drives traffic to websites you pin, it gives an incentive to everyone to publish their websites to IPFS.
 
 ## Run a node
 
