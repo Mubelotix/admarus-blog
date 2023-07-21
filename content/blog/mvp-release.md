@@ -92,7 +92,9 @@ You can also directly support the project by [giving it a star on Github](https:
 With the Minimum Viable Product (MVP) now available, our next focus is on [the alpha release](https://github.com/Mubelotix/admarus/milestone/2), which is planned for the end of the summer.
 Some of the upcoming features include support for image and video documents, UI and UX improvements, performance optimizations, and ranking tweaks.
 
-Join us on this exciting journey as we work towards a truly decentralized, open, and censorship-resistant search engine for IPFS!
+[Join us](https://github.com/Mubelotix/admarus/) on this exciting journey as we work towards a truly decentralized, open, and censorship-resistant search engine for IPFS!
+
+🔥 [**Try the gateway-based demo!**](https://admarus.net/) 🔥
 
 <!-- ## 🛠️ Bonus: Technical Overview
 
