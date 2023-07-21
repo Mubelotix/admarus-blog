@@ -16,7 +16,7 @@ I'm excited to announce [Admarus](https://admarus.net/), a decentralized search 
 
 ## 💡 Motivation
 
-As a long time IPFS user, I've always wanted to use IPFS whenever I could.
+As a long-time IPFS user, I've always wanted to use IPFS whenever I could.
 The thing is, no matter how much I wanted to, I ended up not using it at all.
 And the reason is simple: I just couldn't find anything on it.
 
@@ -33,7 +33,7 @@ If we fail to build one, the whole ecosystem will fail.
 
 There have been many attempts at building new search engines.
 Sadly, all of them are disappointingly centralized and/or not viable.
-There is no point building a new web if it's going to be ruled by the same centralized entities.
+There is no point in building a new web if it's going to be ruled by the same centralized entities.
 As Paolo said, it must be peer-to-peer like IPFS, not reliant on fat blockchains and unsustainable tokens.
 This is the idea behind Admarus.
 
@@ -46,11 +46,11 @@ This is the idea behind Admarus.
 - **Scalable**: Gets faster as more peers join
 - **Censorship-resistant**: Censors would need full control of more than 95% of the network
 - **Open**: Nodes don't discriminate on obscure criteria (hi emails)
-- **Decentralized**: No central authority. Multiple peer discovery mechanisms available
+- **Decentralized**: No central authority. Multiple peer discovery mechanisms are available
 - **Blockchain-free**: No blockchain, no token, just peer-to-peer magic
 - **Developer-friendly**: Practical API for building apps and bots
 
-Admarus is obviously open source, [check it out on Github](https://github.com/mubelotix/admarus)!
+Admarus is open-source, [check it out on Github](https://github.com/mubelotix/admarus)!
 
 <script defer src="https://tarptaeya.github.io/repo-card/repo-card.js"></script>
 <div class="repo-card" data-repo="mubelotix/admarus"></div>
@@ -66,7 +66,7 @@ Like IPFS, Admarus has a web user interface and a public gateway for convenience
 
 Admarus is intended to run on machines that are running Kubo.
 When you run the daemon, it automatically connects to Kubo.
-It will then start indexing all the documents you have pinned. (Only html documents are supported yet.)
+It will then start indexing all the documents you have pinned. (Only HTML documents are supported yet.)
 These documents will now be searchable in the entire network.
 
 This is game-changing for discoverability on IPFS.
