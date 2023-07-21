@@ -72,35 +72,29 @@ These documents will now be searchable in the entire network.
 This is game-changing for discoverability on IPFS.
 Considering this drives traffic to websites you pin, it gives an incentive to everyone to publish their websites to IPFS.
 
-## 💻 Run a node
+## 🤝 How to Contribute
 
 <a href="https://census.admarus.net/"><img alt="Documents in corpus badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcensus.admarus.net%2Fapi%2Fv0%2Fstats&query=%24.stats_1h.documents&suffix=%20documents&label=corpus&color=purple"></a>
 <a href="https://census.admarus.net/"><img alt="Peers in network badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcensus.admarus.net%2Fapi%2Fv0%2Fstats&query=%24.stats_1h.peers&suffix=%20peers&label=network&color=purple"></a>
 
-The Admarus network is currently very small.
-It indexes a subset of Wikipedia and a few other websites.
-It would be a great help if you could run a node and help grow the network!
+At its current stage, the Admarus network is relatively small, indexing only a subset of Wikipedia and a few other websites.
+You can make a significant impact by running a node and helping the network grow!
 
-Guides and documentation can be found [on the wiki](https://github.com/Mubelotix/admarus/wiki).
+Guides and documentation are available [on the project's wiki](https://github.com/Mubelotix/admarus/wiki).
 
 If you have a static website, consider [adding it to ipfs](https://docs.ipfs.tech/how-to/websites-on-ipfs/multipage-website) and [running Admarus](https://github.com/Mubelotix/admarus/wiki/Installation).
-I also encourage developers to build bridges to big websites (news, forums, wikis, torrent websites, etc.).
-By publishing their content to IPFS, you contribute to archiving and decentralizing the web.
+Developers can also contribute by building bridges to prominent websites (news, forums, wikis, torrent websites, etc.), thereby contributing to archiving and decentralizing the web.
 
-## 🚀 The Future
+You can also directly support the project by [giving it a star on Github](https://github.com/Mubelotix/admarus/) or [donating a few sats](bitcoin:bc1q884745lxdpra7kwqtg5et6f74t3faemccz4v6s).
 
-Now that the MVP is out, the next step is working towards the alpha release.
-See the corresponding [Github Milestone](https://github.com/Mubelotix/admarus/milestone/2).
+## 🚀 The Road Ahead
 
-Incoming features include:
-- Support of image and video documents
-- UI and UX improvements
-- Performance optimizations
-- Ranking tweaks
+With the Minimum Viable Product (MVP) now available, our next focus is on [the alpha release](https://github.com/Mubelotix/admarus/milestone/2), which is planned for the end of the summer.
+Some of the upcoming features include support for image and video documents, UI and UX improvements, performance optimizations, and ranking tweaks.
 
-The alpha release is planned for the end of the summer.
+Join us on this exciting journey as we work towards a truly decentralized, open, and censorship-resistant search engine for IPFS!
 
-## 🛠️ Technical Overview
+<!-- ## 🛠️ Bonus: Technical Overview
 
 Let's think this through the easy way.
 I will start by describing the naive approach everyone would think of, and then I will explain why it doesn't work and present a solution to its problems.
@@ -119,3 +113,4 @@ If we could only query peers that are likely to have results, we would be able t
 This is what the Kamilata protocol does, using a routing algorithm based on Bloom filters to test if a peer or its connections are likely to have results.
 
 To learn more about the Kamilata protocol and how it uses Bloom filters to route queries to the right peers, see [the Kamilata repository](https://github.com/mubelotix/kamilata).
+-->
