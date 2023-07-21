@@ -57,15 +57,15 @@ Admarus is obviously open source, [check it out on Github](https://github.com/mu
 
 ## 📐 Design
 
-If you are familiar with the IPFS's design, you will immediately be with Admarus's.
+If you are familiar with the IPFS's design, you will immediately be with Admarus'.
 
 [Kubo](https://github.com/ipfs/kubo) runs a daemon on port `4001` and provides an HTTP API on port `5001`.  
 Admarus runs a daemon on port `4002` and provides an HTTP API on port `5002`.
 
 Like IPFS, Admarus has a web user interface and a public gateway for convenience.
 
-Admarus is intented to run on machines that are running Kubo.
-When you run run the daemon, it automatically connects to Kubo.
+Admarus is intended to run on machines that are running Kubo.
+When you run the daemon, it automatically connects to Kubo.
 It will then start indexing all the documents you have pinned. (Only html documents are supported yet.)
 These documents will now be searchable in the entire network.
 
