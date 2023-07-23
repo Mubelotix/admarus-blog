@@ -66,7 +66,7 @@ Like IPFS, Admarus has a web user interface and a public gateway for convenience
 
 Admarus is intended to run on machines that are running Kubo.
 When you run the daemon, it automatically connects to Kubo.
-It will then start indexing all the documents you have pinned. (Only HTML documents are supported yet.)
+It will then start indexing all the documents you have pinned. (Only HTML documents are currently supported.)
 These documents will now be searchable in the entire network.
 
 This is game-changing for discoverability on IPFS.
