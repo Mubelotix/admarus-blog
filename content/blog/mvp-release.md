@@ -5,8 +5,7 @@ draft: false
 ---
 
 I've been working on a new search engine system that's fully peer-to-peer, with no trusted third party.
-
-I'm excited to announce [Admarus](https://admarus.net/), a decentralized search engine for IPFS.
+Today, I'm excited to unveil [Admarus](https://admarus.net/), a decentralized search engine for the decentralized web (specifically, IPFS).
 
 <p align="center">
     <a href="https://www.youtube.com/watch?v=AKGpNKwBrOY"><img src="https://admarus.net/demo.gif#2" alt="Demo GIF of searching on Admarus."/></a>
@@ -16,26 +15,28 @@ I'm excited to announce [Admarus](https://admarus.net/), a decentralized search 
 
 ## 💡 Motivation
 
-As a long-time IPFS user, I've always wanted to use IPFS whenever I could.
-The thing is, no matter how much I wanted to, I ended up not using it at all.
-And the reason is simple: I just couldn't find anything on it.
+IPFS is a network for storing and sharing data.
+Hopes are that it could be the foundation of a new, distributed web.
+This new web would aim to guarantee freedom of speech, privacy, and access to information, while eliminating censorship and gatekeeping.
 
-IPFS needed a search engine.
+However, at present, IPFS primarily functions as a storage solution rather than a fully realized web platform.
+Unlike the conventional web, browsing an IPFS-based web is not yet a seamless experience, as finding content can be challenging, if not impossible.
 
-It is only when I stumbled upon [this tweet](https://twitter.com/paoloardoino/status/1534811103670173696) that I realized how important this issue is.
+One of the reasons the current web was successful was its ease of finding content.
+If we are going to build a new web on IPFS, we need to make IPFS searchable.
+And we can't just use a centralized system, because that would be missing the whole point.
+The search engine must be decentralized and open, aligning with the core principles of the IPFS network.
+For IPFS to be widely adopted and relevant as a web platform, implementing a decentralized and open search engine is essential.
+
+I would like to give credit to [this tweet](https://twitter.com/paoloardoino/status/1534811103670173696) for inspiring me to start working on Admarus.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A pure peer to peer knowledge indexer and search engine is the real end game.<br>Not blockchain based, it will never scale.<br>Just peer storage, peer indexing, peer stuff.<br>No token will be needed to access knowledge 🤫</p>&mdash; Paolo Ardoino 🍐 (@paoloardoino) <a href="https://twitter.com/paoloardoino/status/1534811103670173696?ref_src=twsrc%5Etfw">June 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If we are going to build a *new* web, we need a *new* way to find content on it.
-
-IPFS needs a *decentralized, open, and censorship-resistant* search engine.
-If we fail to build one, the whole ecosystem will fail.
-
-There have been many attempts at building new search engines.
+There have already been many attempts at building new search engines.
 Sadly, all of them are disappointingly centralized and/or not viable.
-There is no point in building a new web if it's going to be ruled by the same centralized entities.
+There is no point in building a new web if it's also going to be ruled by big companies.
 As Paolo said, it must be peer-to-peer like IPFS, not reliant on fat blockchains and unsustainable tokens.
-This is the idea behind Admarus.
+This is the idea behind Admarus, and that's what makes it different.
 
 ## ✨ Features
 
